@@ -1,3 +1,4 @@
+"""
 print("----------------------------------------")
 
 idade = 22
@@ -72,7 +73,7 @@ frase = "Olá, meu nome é: " + nome + " e eu tenho " + str(idade) + " anos."
 print(frase)
 
 print("----------------------------------------")
-"""
+
 print("Calculadora")
 
 n1 = float(input("Digite N1: "))
@@ -87,17 +88,13 @@ print("Soma ", adicao)
 print("Subtração ", subtracao)
 print("Multiplicação ", multiplicacao)
 print("Divisão", divisao)
-"""
 print("----------------------------------------")
 
-
-"""
 print("Conversor de Temperatura")
 celsius = float(input("Celsius: "))
 
 conversao = celsius * 9/5 + 32
 print("Fahrenheit: ", conversao)
-"""
 
 print("----------------------------------------")
 
@@ -105,5 +102,6 @@ raio = float(input("Digite o raio: "))
 pi = 3.14159
 area = pi * raio ** 2
 print("A área do seu circulo é: ", area)
+"""
 
 
