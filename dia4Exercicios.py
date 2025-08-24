@@ -120,11 +120,32 @@ if cedulas_5 > 0:
     print(f"{cedulas_5} x R$5")
 if cedulas_2 > 0:
     print(f"{cedulas_2} x R$2")
+
+macas = int(input("Quantas maçãs existem?"))
+caixas = 10
+caixasMacas = macas // caixas
+print(f"São cheias {caixasMacas} caixas com a quantidade de maçãs")
+resto = macas % caixas
+print("E sobraram ",resto)
+
+pacote = 6
+chocolates = int(input("Quantos chocolates você deseja: ")) 
+pacotes = chocolates // pacote
+resto = chocolates % pacote
+print(f"Você precisa comprar {pacotes} pacotes completos de 6 chocolates")
+if resto:
+    print(f"E sobraram {resto} chocolates")
+
+amigos = 4
+brigadeiros = int(input("Digite a quantidade de brigadeiros: "))
+divisaoBrigadeiros = brigadeiros // amigos
+resto = brigadeiros % amigos
+print(f"São {divisaoBrigadeiros} brigadeiros para cada amigo")                  
+if resto:
+    print(f"E sobram {resto}")
+else:
+    print("A divisão foi exata! Que sorte!")
 """
-# Decompondo um número em centenas, dezenas e unidades
-# - Peça um número inteiro (0–999) e exiba quantas centenas, dezenas e unidades ele tem.
-# - Exemplo: 374 → 3 centenas, 7 dezenas, 4 unidades.
-
-numero = int(input("Digite um número para decompor (0-999): "))
-
-
+minutos = int(input("Digite a quantidade de minutos: "))
+horas = minutos // 60
+minutos %= 60
