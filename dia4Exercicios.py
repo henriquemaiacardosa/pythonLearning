@@ -145,7 +145,60 @@ if resto:
     print(f"E sobram {resto}")
 else:
     print("A divisão foi exata! Que sorte!")
-"""
+
 minutos = int(input("Digite a quantidade de minutos: "))
 horas = minutos // 60
 minutos %= 60
+print(f"{horas} horas {minutos} minutos:")
+
+# Desafio:
+# Crie um programa que receba uma quantidade de segundos e converta para minutos e segundos.
+segundos = int(input("Digite os segundos: "))
+minutos = segundos // 60
+segundos %= 60
+print(f"{minutos} minutos {segundos} segundos:")
+#Crie um programa que receba uma quantidade de segundos e converta para horas, minutos e segundos.
+segundos = int(input("Digite os segundos: "))
+horas = segundos // 3600
+segundos %= 3600
+minutos = segundos // 60
+segundos %= 60
+print(f"{horas} h {minutos} m {segundos} s")
+
+# 1. Caixas de leite
+# Um caminhão está levando leite em litros. Cada caixa comporta 12 litros.
+#  Escreva um programa que receba a quantidade total de litros e mostre:
+# Quantas caixas completas cabem.
+# Quantos litros sobraram fora das caixas.
+litros = int(input("Quantos litros de leite será levado? "))
+caixa = 12 
+leite = litros // caixa
+litros %= 12
+print(f"{leite} {litros} ")
+
+# 2. Notas escolares
+# Um professor tem 127 provas para corrigir. Ele organiza os trabalhos em pilhas de 25 provas.
+#  Crie um programa que receba o número total de provas e mostre:
+# Quantas pilhas completas ele terá.
+# Quantas provas vão sobrar fora das pilhas.
+
+provas = int(input("Digite a quantidade de provas a serem corrigidas: "))
+pilha = 25
+provasCorrigidas = provas // pilha
+provas %= 25
+print(f"O professor terá {provasCorrigidas} pilhas para corrigir e {provas} prova(s)")
+"""
+# 3. Troco em moedas
+# Um cliente pagou uma compra e recebeu centavos de troco.
+# As moedas disponíveis são de 25, 10, 5 e 1 centavo.
+#  Escreva um programa que receba o valor em centavos e mostre quantas moedas de cada tipo ele deve receber.
+valorDaCompra = float(input("Valor da compra: R$"))
+troco25 = valorDaCompra // 0.25
+valorDaCompra %= 0.25
+troco10 = valorDaCompra // 0.10
+valorDaCompra %= 0.10
+troco5 = valorDaCompra // 0.05
+valorDaCompra %= 0.02
+troco1 = valorDaCompra // 0.01
+valorDaCompra %= 0.01
+print(f"Troco em moedas de 25 {troco25}, Troco em moedas de 10 {troco10}, Troco em moedas de 5 {troco5}, Troco em moedas de 1 {troco1}")
