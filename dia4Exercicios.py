@@ -187,7 +187,7 @@ pilha = 25
 provasCorrigidas = provas // pilha
 provas %= 25
 print(f"O professor terá {provasCorrigidas} pilhas para corrigir e {provas} prova(s)")
-"""
+
 # 3. Troco em moedas
 # Um cliente pagou uma compra e recebeu centavos de troco.
 # As moedas disponíveis são de 25, 10, 5 e 1 centavo.
@@ -202,3 +202,37 @@ valorDaCompra %= 0.02
 troco1 = valorDaCompra // 0.01
 valorDaCompra %= 0.01
 print(f"Troco em moedas de 25 {troco25}, Troco em moedas de 10 {troco10}, Troco em moedas de 5 {troco5}, Troco em moedas de 1 {troco1}")
+"""
+
+# Crie um programa que simula um caixa eletrônico. O usuário deve informar o valor do saque
+# (apenas valores inteiros) e o programa deve informar quantas cédulas de cada valor serão
+# fornecidas.
+# ● Considere cédulas de R$100, R$50, R$20, R$10, R$5 e R$2
+caixaEletronico = int(input("Digite o valor do saque: "))
+if caixaEletronico < 0:
+    print("Valor indisponível para saque")
+else:
+    nota1OO = caixaEletronico // 100
+    caixaEletronico %= 100
+
+    nota50 = caixaEletronico // 50
+    caixaEletronico %= 50
+
+    nota2O = caixaEletronico // 20
+    caixaEletronico %= 20
+
+    nota1O = caixaEletronico // 10
+    caixaEletronico %= 10
+
+    nota5 = caixaEletronico // 5
+    caixaEletronico %= 5
+
+    nota2 = caixaEletronico // 2
+    caixaEletronico %= 2
+    
+    print(f"Notas de R$100: {nota1OO}")
+    print(f"Notas de R$50: {nota50}")
+    print(f"Notas de R$20: {nota2O}")
+    print(f"Notas de R$10: {nota1O}")
+    print(f"Notas de R$5: {nota5}")
+    print(f"Notas de R$2: {nota2}")
