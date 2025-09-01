@@ -65,25 +65,84 @@ print("A soma é", soma)
 #     if i % 2 == 0:
 #         print(i)
 
-# 3. Peça ao usuário um número inteiro e calcule a soma de todos os números ímpares de 1 até esse número.
-numero = int(input("Digite um número: "))
-soma = 0
-for i in range(1, numero+1):
-    if i % 2 != 0:
-        soma += i
-print(soma)
-
+# # 3. Peça ao usuário um número inteiro e calcule a soma de todos os números ímpares de 1 até esse número.
+# numero = int(input("Digite um número: "))
+# soma = 0
+# for i in range(1, numero+1):
+#     if i % 2 != 0:
+#         soma += i
+# print(soma)
 
 # 4. Solicite dois números inteiros e exiba todos os números entre eles (inclusive).
+# n1 = int(input("Digite um número: "))
+# n2 = int(input("Digite um número: "))
 
-# 5. Peça ao usuário um número inteiro e exiba a tabuada desse número de 1 a 10.
+# n = n1
+# if n < n2:
+#     while n <= n2:
+#         print(n)
+#         n += 1
 
-# 6. Solicite um número inteiro e conte quantos divisores ele possui.
+# else:
+#     while n >= n2:
+#         print(n)
+#         n -=1
 
-# 7. Peça ao usuário 5 números e exiba o maior deles.
+# Peça ao usuário um número inteiro positivo N 
+# e faça uma contagem regressiva até 0, mostrando cada número.
+# No final, mostre a mensagem “FIM!”.
 
-# 8. Solicite um número inteiro N e exiba a soma dos dígitos desse número.
+#while
+# n = int(input("Digite um número: "))
 
-# 9. Peça ao usuário um número inteiro e verifique se ele é primo.
+# while n >= 0:   
+#     print(n)
+#     n -= 1
+# print("FIM!")
 
-# 10. Solicite um número inteiro e exiba
+
+# #FOR
+# n = int(input("Digite um número: "))
+
+# for i in range(n, -1, -1):   
+#     print(i)
+# print("FIM!")
+
+#Peça ao usuário um número inteiro positivo N e mostre todos os números pares de 1 até N.
+
+#for
+# n = int(input("Digite um número inteiro e positivo: "))
+
+# for i in range(2, n+1, 2):
+#     print(i)
+
+# # while 
+# n = int(input("Type a positive even number:"))
+# i = 2
+# while i <= n:
+#     print(i)
+#     i +=2
+
+# Peça ao usuário um número inteiro positivo N e mostre todos os números de 1 até N que são divisíveis por 3 e 5 ao mesmo tempo.
+
+#for
+# n = int(input("Type a number: "))
+
+# for i in range(1, n+1):
+#     divisor = (i % 3 == 0) and (i % 5 == 0)
+#     if divisor:
+#         print(i)
+
+# # ou for
+# n = int(input("Type a number: "))
+# for i in range(15, n+1,15):
+#     print(i)
+
+# while 
+n = int(input("Type a number: "))
+i = 15
+while i <= n:
+    print(i)
+    i += 15
+    
+    
