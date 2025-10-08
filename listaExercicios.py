@@ -1,4 +1,4 @@
-# ###########################################################################################################
+############################################################################################################
 
 # Faça um programa que peça uma nota, entre zero e dez. 
 # Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
@@ -58,13 +58,35 @@
 # Faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro. 
 # Depois modifique o programa para que ele mostre os números um ao lado do outro.
 
-
+# for i in range(0,20):
+#     i+=1
+#     print(i, end=" ")
 
 ############################################################################################################
 
 # Faça um programa que leia 5 números e informe o maior número.
 
+# lista = []
 
+# for i in range(0,5):
+
+#     n = int(input("Digite um número: "))
+#     lista.append(n)
+#     maior = lista[0]
+
+# if maior < lista[1]:
+#     maior = lista[1]
+
+# if maior < lista[2]:
+#     maior = lista[2]
+
+# if maior < lista[3]:
+#     maior = lista[3]
+
+# if maior < lista[4]:
+#     maior = lista[4]
+
+# print(maior)
 
 ############################################################################################################
 
@@ -93,6 +115,16 @@
 ############################################################################################################
 
 # Altere o programa anterior para mostrar no final a soma dos números.
+# n1 = int(input("Digite um número: "))
+# n2 = int(input("Digite outro número: "))
+# soma = 0
+
+# for i in range(n1,n2+1):
+#     print(i,end=" ")
+#     soma += i
+# print("Soma:",soma)
+
+############################################################################################################
 
 # Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. 
 # O usuário deve informar de qual numero ele deseja ver a tabuada. 
@@ -103,55 +135,122 @@
 # ...
 # 5 X 10 = 50
  
+
+
+############################################################################################################
+
 # Faça um programa que peça dois números, base e expoente, 
 # calcule e mostre o primeiro número elevado ao segundo número. 
 # Não utilize a função de potência da linguagem.
 
+
+
+############################################################################################################
+
 # Faça um programa que peça 10 números inteiros, 
 # calcule e mostre a quantidade de números pares e a quantidade de números ímpares.
+
+
+
+############################################################################################################
 
 # A série de Fibonacci é formada pela sequência 1,1,2,3,5,8,13,21,34,55,... 
 # Faça um programa capaz de gerar a série até o n−ésimo termo.
 
+
+
+############################################################################################################
+
 # A série de Fibonacci é formada pela sequência 0,1,1,2,3,5,8,13,21,34,55,... 
 # Faça um programa que gere a série até que o valor seja maior que 500.
+
+
+
+############################################################################################################
 
 # Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário. 
 # Ex.: 5!=5.4.3.2.1=120
 
+
+
+############################################################################################################
+
 # Faça um programa que, dado um conjunto de N números, determine 
 # o menor valor, o maior valor e a soma dos valores.
 
+
+
+############################################################################################################
+
 # Altere o programa anterior para que ele aceite apenas números entre 0 e 1000.
+
+
+
+############################################################################################################
 
 # Altere o programa de cálculo do fatorial, permitindo ao usuário 
 # calcular o fatorial várias vezes e limitando o fatorial a números inteiros positivos e menores que 16.
 
+
+
+############################################################################################################
+
 # Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. 
 # Um número primo é aquele que é divisível somente por ele mesmo e por 1.
 
+
+
+############################################################################################################
+
 # Altere o programa de cálculo dos números primos, informando, caso o número não seja primo, 
 # por quais número ele é divisível.
+
+
+
+############################################################################################################
 
 # Faça um programa que mostre todos os primos entre 1 e N sendo N um número inteiro fornecido pelo usuário. 
 # O programa deverá mostrar também o número de divisões que ele executou para encontrar os números primos. 
 # Serão avaliados o funcionamento, o estilo e o número de testes (divisões) executados.
 
+
+
+############################################################################################################
 # Faça um programa que calcule o mostre a média aritmética de N notas.
+
+
+
+############################################################################################################
 
 # Faça um programa que peça para n pessoas a sua idade, ao final o programa devera verificar 
 # se a média de idade da turma varia entre 0 e 25,26 e 60 e maior que 60; e então, dizer se a turma é jovem, 
 # adulta ou idosa, conforme a média calculada.
 
+
+
+############################################################################################################
+
 # Numa eleição existem três candidatos. Faça um programa que peça o número total de eleitores. 
 # Peça para cada eleitor votar e ao final mostrar o número de votos de cada candidato.
+
+
+
+############################################################################################################
 
 # Faça um programa que calcule o número médio de alunos por turma. Para isto, peça a quantidade de turmas 
 # e a quantidade de alunos para cada turma. As turmas não podem ter mais de 40 alunos.
 
+
+
+############################################################################################################
+
 # Faça um programa que calcule o valor total investido por um colecionador em sua coleção de CDs 
 # e o valor médio gasto em cada um deles. 
 # O usuário deverá informar a quantidade de CDs e o valor para em cada um.
+
+
+
+############################################################################################################
 
 # O Sr. Manoel Joaquim possui uma grande loja de artigos de R$ 1,99, com cerca de 10 caixas. 
 # Para agilizar o cálculo de quanto cada cliente deve pagar ele desenvolveu uma tabela 
@@ -166,6 +265,10 @@
 # ...
 # 50 - R$ 99.50
 
+
+
+############################################################################################################
+
 # O Sr. Manoel Joaquim acaba de adquirir uma panificadora e pretende implantar a metodologia da tabelinha, 
 # que já é um sucesso na sua loja de 1,99.
 #  Você foi contratado para desenvolver o programa que monta a tabela de preços de pães, de 1 até 50 pães, 
@@ -176,6 +279,10 @@
 # 2 - R$ 0.36
 # ...
 # 50 - R$ 9.00
+
+
+
+############################################################################################################
 
 # O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 
 # e agora possui uma loja de conveniências. Faça um programa que implemente uma 
@@ -194,22 +301,42 @@
 # Troco: R$ 11.00
 # ...
 
+
+
+############################################################################################################
+
 # Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário. 
 # Ex.: 5!=5.4.3.2.1=120. A saída deve ser conforme o exemplo abaixo:
 # Fatorial de: 5
 # 5! =  5 . 4 . 3 . 2 . 1 = 120
 
+
+
+############################################################################################################
+
 # O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia 
 # as um conjunto indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, 
 # bem como a média das temperaturas.
+
+
+
+############################################################################################################
 
 # Os números primos possuem várias aplicações dentro da Computação, por exemplo na Criptografia. 
 # Um número primo é aquele que é divisível apenas por um e por ele mesmo. 
 # Faça um programa que peça um número inteiro e determine se ele é ou não um número primo.
 
+
+
+############################################################################################################
+
 # Encontrar números primos é uma tarefa difícil. 
 # Faça um programa que gera uma lista dos números primos existentes entre 1 e um número inteiro 
 # informado pelo usuário.
+
+
+
+############################################################################################################
 
 # Desenvolva um programa que faça a tabuada de um número qualquer inteiro que será digitado pelo usuário, 
 # mas a tabuada não deve necessariamente iniciar em 1 e terminar em 10, 
@@ -218,6 +345,10 @@
 # Começar por: 4
 # Terminar em: 7
 
+
+
+############################################################################################################
+
 # Vou montar a tabuada de 5 começando em 4 e terminando em 7:
 # 5 X 4 = 20
 # 5 X 5 = 25
@@ -225,12 +356,20 @@
 # 5 X 7 = 35
 # Obs: Você deve verificar se o usuário não digitou o final menor que o inicial.
 
+
+
+############################################################################################################
+
 # Uma academia deseja fazer um senso entre seus clientes para descobrir o mais alto, o mais baixo, 
 # a mais gordo e o mais magro, para isto você deve 
 # fazer um programa que pergunte a cada um dos clientes da academia seu código, sua altura e seu peso. 
 # O final da digitação de dados deve ser dada quando o usuário digitar 0 (zero) no campo código. 
 # Ao encerrar o programa também deve ser informados os códigos e valores do clente mais alto, 
 # do mais baixo, do mais gordo e do mais magro, além da média das alturas e dos pesos dos clientes
+
+
+
+############################################################################################################
 
 # Um funcionário de uma empresa recebe aumento salarial anualmente: Sabe-se que:
 # Esse funcionário foi contratado em 1995, com salário inicial de R$ 1.000,00;
@@ -240,10 +379,18 @@
 # Faça um programa que determine o salário atual desse funcionário. 
 # Após concluir isto, altere o programa permitindo que o usuário digite o salário inicial do funcionário.
 
+
+
+############################################################################################################
+
 # Faça um programa que leia dez conjuntos de dois valores, o primeiro representando o número do aluno
 #  e o segundo representando a sua altura em centímetros. 
 # Encontre o aluno mais alto e o mais baixo. 
 # Mostre o número do aluno mais alto e o número do aluno mais baixo, junto com suas alturas.
+
+
+
+############################################################################################################
 
 # Foi feita uma estatística em cinco cidades brasileiras para coletar dados sobre acidentes de trânsito. 
 # Foram obtidos os seguintes dados:
@@ -253,6 +400,10 @@
 # Qual o maior e menor índice de acidentes de transito e a que cidade pertence;
 # Qual a média de veículos nas cinco cidades juntas;
 # Qual a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio.
+
+
+
+############################################################################################################
 
 # Faça um programa que receba o valor de uma dívida e mostre uma tabela com os seguintes dados: 
 # valor da dívida, valor dos juros, quantidade de parcelas e valor da parcela.
@@ -269,6 +420,10 @@
 # R$ 1.100,00     100             3                       R$    366,00
 # R$ 1.150,00     150             6                       R$    191,67
 
+
+
+############################################################################################################
+
 # Faça um programa que leia uma quantidade indeterminada de números positivos 
 # e conte quantos deles estão nos seguintes intervalos: [0-25], [26-50], [51-75] e [76-100]. 
 # A entrada de dados deverá terminar quando for lido um número negativo.
@@ -281,9 +436,17 @@
 # Cheeseburguer   104     R$ 1,30
 # Refrigerante    105     R$ 1,00
 
+
+
+############################################################################################################
+
 # Faça um programa que leia o código dos itens pedidos e as quantidades desejadas. 
 # Calcule e mostre o valor a ser pago por item (preço * quantidade) e o total geral do pedido. 
 # Considere que o cliente deve informar quando o pedido deve ser encerrado.
+
+
+
+############################################################################################################
 
 # Em uma eleição presidencial existem quatro candidatos. Os votos são informados por meio de código. 
 # Os códigos utilizados são:
@@ -298,6 +461,10 @@
 # A percentagem de votos nulos sobre o total de votos;
 # A percentagem de votos em branco sobre o total de votos. 
 # Para finalizar o conjunto de votos tem-se o valor zero.
+
+
+
+############################################################################################################
 
 # Desenvolver um programa para verificar a nota do aluno em uma prova com 10 questões, 
 # o programa deve perguntar ao aluno a resposta de cada questão e ao final comparar 
@@ -322,6 +489,10 @@
 # 10 - A
 # Após concluir isto você poderia incrementar o programa permitindo que 
 # o professor digite o gabarito da prova antes dos alunos usarem o programa.
+
+
+
+############################################################################################################
 
 # Em uma competição de salto em distância cada atleta tem direito a cinco saltos. 
 # No final da série de saltos de cada atleta, o melhor e o pior resultados são eliminados. 
@@ -370,16 +541,32 @@
 # Pior nota: 7.5
 # Média: 9,04
 
+
+
+############################################################################################################
+
 # Faça um programa que peça um numero inteiro positivo e em seguida mostre este numero invertido.
 # Exemplo:
 #   12376489
 #   => 98467321
 
+
+
+############################################################################################################
+
 # Faça um programa que mostre os n termos da Série a seguir:
 #   S = 1/1 + 2/3 + 3/5 + 4/7 + 5/9 + ... + n/m. 
 # Imprima no final a soma da série.
 
+
+
+############################################################################################################
+
 # Sendo H= 1 + 1/2 + 1/3 + 1/4 + ... + 1/N, Faça um programa que calcule o valor de H com N termos.
+
+
+
+############################################################################################################
 
 # Faça um programa que mostre os n termos da Série a seguir:
 #   S = 1/1 + 2/3 + 3/5 + 4/7 + 5/9 + ... + n/m. 

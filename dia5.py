@@ -292,15 +292,3 @@ print("A soma é", soma)
 # while z <= 20: 
 #     print(z, end=' ')
 #     z+=1
-
-# Faça um programa que leia 5 números e informe o maior número.
-
-i = 1
-n = []
-while i <= 5:
-    n.append(float(input("Dgite um número: ")))
-    i+=1
-m = n[0]
-for m in n:
-   if n[1] > m:
-       
